@@ -1,0 +1,297 @@
+*{
+margin: 0%;;
+padding: 0%;
+
+}
+
+body{
+
+    background-color: beige;
+}
+
+
+header{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav{
+    margin-top: 30px;
+    margin: 20px;
+}
+
+
+header nav a{
+   margin: 25px;
+}
+
+h3{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.h3{
+    color: black;
+    margin-left: 6%;
+    margin-top: 6%;
+    margin-bottom: 15px;
+}
+
+
+
+.letra{
+    margin-left: 26%;
+    color: black;
+    background-color: white;
+    width: 13%;
+}
+
+h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+figure{
+    display: flex;
+    text-justify: distribute;
+    margin-left: 50%;
+}
+
+.img{
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    text-align: center;
+    background-color:cornflowerblue;
+    border-radius: 15%;
+    margin-bottom: 20%; 
+}
+
+.dev2{
+    background-color: blueviolet;
+
+    
+}
+
+.section{
+    background-color:white;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    margin: 4px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 38%;
+}
+
+
+legend{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    left: 40%;
+    right: 20%;
+}
+
+h2{
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 80px;
+    filter:brightness(100%) ;
+    display: flex;
+    
+}
+
+p{
+    margin-left: 75px;
+
+}
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.son{
+    text-align: center;
+    
+}
+
+.h{
+    color: black;
+    margin-top: 2%;
+    margin-left: 21%;
+}
+
+#base{
+display: flex;
+margin-top: 50%;
+margin-left: 20%;
+}
+
+#base2{
+   text-align: justify;
+    justify-content: spx;
+    
+
+}
+
+#form{
+    color: black;
+    text-align: center;
+}
+
+.input{
+    width: 150px;
+    height: 25px;
+    margin-top: 2%;
+    margin: 6px; 
+}
+
+.input2{
+    width: 150px;
+    height: 45px;
+    margin: 6px;
+}
+
+.botao{
+    margin-left: 6px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.formulario{
+    margin-left: 23%;
+}
+
+.son{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    grid-template-areas: 
+        "iphone1 iphone1 iphone1"
+        "iphone2 iphone2 iphone2"
+        "iphone3 iphone3 iphone3"
+        "iphone4 iphone4 iphone4"
+        "iphone5 iphone5 iphone5"
+    ;
+    gap:15px;
+    margin-right: 70%; 
+}
+
+
+.iphone1{
+    border-radius: 5%;
+    background-color:white;
+    text-align: justify;
+}
+
+.iphone2{
+    border-radius: 5%;
+    background-color:white;
+    text-align: justify;
+}
+
+.iphone3{
+    border-radius: 5%;
+    background-color:white;
+    text-align: justify;
+}
+
+.iphone4{
+    border-radius: 5%;
+    background-color:white;
+    text-align: justify;
+}
+
+.iphone5{
+    border-radius: 5%;
+    background-color:white;
+    text-align: justify;
+}
+
+
+.botao2{
+    text-align: center;
+    border-radius: 40%;
+    height: 40px;
+    width: 150px;
+    margin-top: 3%;
+}
+
+#serviços{
+    color: black;
+    margin-top: 50%;
+}
+
+#ultim{
+    display: grid;
+    grid-template-areas: 
+    "serviços serviços"
+    "contatos contatos"
+    ;
+    gap: 30%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 10%;
+    margin-right: 24%;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+.hr{
+    margin-left: 30%;
+}
+
+.parag{
+    margin: 5px;
+}
+
+footer{
+    margin-top: 2%; 
+}
+
+.rodape{
+    margin-left: 25%;
+}
+
+@media(max-width:771px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:771px){
+    header{
+       flex-direction: column;
+        
+    }
+
+    nav{ 
+        flex-direction: column;
+    }
+}
+
+
+
+
